@@ -1,6 +1,6 @@
 package com.example.mycafe.service;
 
-import com.example.mycafe.DTO.MenuDTO;
+import com.example.mycafe.base.DTO.MenuDTO;
 import com.example.mycafe.entity.Menu;
 import com.example.mycafe.repository.MenuRepository;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.example.mycafe.controller;
 
-import com.example.mycafe.DTO.CategoryDTO;
-import com.example.mycafe.entity.Category;
+import com.example.mycafe.base.DTO.CategoryDTO;
+import com.example.mycafe.base.DTO.DataResponseDTO;
 import com.example.mycafe.service.CategoryService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -24,7 +24,7 @@ public class CategoryController {
     }
 
     @PostMapping("api/category/create")
-    public CategoryDTO postCategoryCreate(@RequestBody CategoryDTO categoryDTO) {
+    public DataResponseDTO<CategoryDTO> postCategoryCreate(@RequestBody CategoryDTO categoryDTO) {
         return categoryService.postCategoryCreate(categoryDTO);
     }
 }

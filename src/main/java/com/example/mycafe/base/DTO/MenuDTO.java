@@ -1,4 +1,4 @@
-package com.example.mycafe.DTO;
+package com.example.mycafe.base.DTO;
 
 import lombok.Builder;
 import lombok.Data;

@@ -34,6 +34,7 @@ dependencies {
 	testImplementation("org.springframework.security:spring-security-test")
 	implementation("org.springframework.boot:spring-boot-starter-security")
 	implementation("io.jsonwebtoken:jjwt:0.9.1")
+	implementation("org.springframework.boot:spring-boot-starter-data-elasticsearch")
 }
 
 tasks.withType<Test> {
